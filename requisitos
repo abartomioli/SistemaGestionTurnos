@@ -1,8 +1,8 @@
 
 # Requisitos Funcionales
 1️⃣ Gestión de Turnos:
-El sistema debe permitir el registro, modificación y cancelación de turnos por parte del personal autorizado.
-Debe validar que un médico no tenga más turnos de los que puede atender en su horario de trabajo.
+    El sistema debe permitir el registro, modificación y cancelación de turnos por parte del personal autorizado.
+    Debe validar que un médico no tenga más turnos de los que puede atender en su horario de trabajo.
 
 2️⃣ Historial de Turnos:
 Se debe almacenar el historial de turnos de cada paciente, incluyendo fecha, médico, especialidad y estado del turno.
