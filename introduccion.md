@@ -32,4 +32,9 @@ Este enfoque permite estructurar el código de manera modular y reutilizable, fa
 
 VER -> [DETALLE FUNDAMENTOS POO](fundamentos.md)
 
-1. [Inicio](README.md) 2. [Anexos](anexos.md) 3. [Fundamentos POO](fundamentos.md)
+
+## Anexo - Requisitos Iniciales del Sistema
+
+VER -> [REQUISITOS](requisitos.md)
+
+1. [Inicio](README.md) 2. [Anexos](anexos.md) 3. [Fundamentos POO](fundamentos.md) 4. [Requisitos](requisitos.md)
