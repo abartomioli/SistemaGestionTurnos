@@ -65,3 +65,8 @@ Se centra en los aspectos esenciales de un objeto, ocultando detalles innecesari
    │  🅰 Botón "Saltar"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│<br>
    │  🅱 Botón "Correr"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│<br>
    └──────────────┘<br>
+
+   VER -> [Requisitos iniciales del Sistema](requisitos.md)
+   VOLVER ->[Introducción](introduccion.md)
+
+1. [Inicio](README.md) 2. [Anexos](anexos.md) 3. [Introducción](introduccion.md)
