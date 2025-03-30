@@ -19,3 +19,5 @@
 5️⃣ Control de Acceso y Seguridad:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;    El sistema debe contar con roles y permisos para restringir el acceso a la información sensible.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;    Solo el personal autorizado podrá modificar turnos o acceder a datos de pacientes.<br>
+
+1. [Inicio](README.md) 2. [Anexos](anexos.md) 3. [Fundamentos POO](fundamentos.md) 4. [Introducción](introduccion.md)
