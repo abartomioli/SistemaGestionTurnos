@@ -32,9 +32,16 @@ Este enfoque permite estructurar el código de manera modular y reutilizable, fa
 
 #### Encapsulamiento:
 Se centra en los aspectos esenciales de un objeto, ocultando detalles innecesarios.
+
+
+
+
 ##### - Ejemplo: Un control de videojuego
   - El jugador solo ve y usa los botones (interfaz).
   - No necesita saber cómo funciona internamente el circuito del control.
+
+
+
 
        Joystick
   A - Botón "Saltar"
