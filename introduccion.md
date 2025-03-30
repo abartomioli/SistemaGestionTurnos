@@ -37,4 +37,8 @@ VER -> [DETALLE FUNDAMENTOS POO](fundamentos.md)
 
 VER -> [REQUISITOS](requisitos.md)
 
-1. [Inicio](README.md) 2. [Anexos](anexos.md) 3. [Fundamentos POO](fundamentos.md) 4. [Requisitos](requisitos.md)
+## Anexo - Casos de Uso
+
+VER -> [CASOS DE USOS](casoUso.md)
+
+1. [Inicio](README.md) 2. [Anexos](anexos.md) 3. [Fundamentos POO](fundamentos.md) 4. [Requisitos](requisitos.md) 5. [Casos de Uso](casoUso.md)
