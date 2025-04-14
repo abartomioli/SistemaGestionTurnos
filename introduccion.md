@@ -216,7 +216,11 @@ El paciente queda registrado y disponible para asignación de turnos.<br>
 
 ## Anexo - Boceto Inicial del diseño de clases
 
-[Diagrama de Clases - SISTUR](https://github.com/abartomioli/SistemaGestionTurnos/blob/main/diagramaClases.jpg?raw=true)
+![Diagrama de Clases - SISTUR](https://github.com/abartomioli/SistemaGestionTurnos/blob/main/diagramaClases.jpg?raw=true)
+
+Aclaración: Tambien puede descargarse el diagrama original realizado en draw.io, utilizando el archivo: [Diagrama Clases Sistema turnos.drawio]
+[📥 Descargar Archivo](https://github.com/abartomioli/SistemaGestionTurnos/blob/main/Diagrama%20Clases%20Sistema%20turnos.drawio?raw=true)
+
 
 
 
