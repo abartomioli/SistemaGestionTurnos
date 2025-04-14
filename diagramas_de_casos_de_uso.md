@@ -2,4 +2,12 @@
 
 ## 📌 Caso de Uso 1: Registrar un Turno<br>
 
-![Diagrama de Clases - SISTUR](https://github.com/abartomioli/SistemaGestionTurnos/blob/main/CasosdeUso/RegistrarunTurno.png?raw=true)
+![-](https://github.com/abartomioli/SistemaGestionTurnos/blob/main/CasosdeUso/RegistrarunTurno.png?raw=true)
+
+## 📌 Caso de Uso 2: Confirmar asistencia a un Turno<br>
+
+![-](https://github.com/abartomioli/SistemaGestionTurnos/blob/main/CasosdeUso/ConfirmarAsistenciaTurno.png?raw=true)
+
+## 📌 Caso de Uso 3: Cancelar un Turno<br>
+
+![-](https://github.com/abartomioli/SistemaGestionTurnos/blob/main/CasosdeUso/CancelarunTurno.png?raw=true)
