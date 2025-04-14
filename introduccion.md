@@ -216,8 +216,7 @@ El paciente queda registrado y disponible para asignación de turnos.<br>
 
 ## Anexo - Boceto Inicial del diseño de clases
 
-VER -> [BOCETO DE CLASES](bocetoclases.md)
+[Diagrama de Clases - SISTUR](https://github.com/abartomioli/SistemaGestionTurnos/blob/main/diagramaClases.jpg?raw=true)
 
 
 
-1. [Inicio](README.md) 2. [Anexos](anexos.md) 3. [Fundamentos POO](fundamentos.md) 4. [Requisitos](requisitos.md) 5. [Casos de Uso](casosUso.md) 6. [Boceto de Clases](bocetoclases.md)
