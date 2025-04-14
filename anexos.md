@@ -1,5 +1,4 @@
-# Añexos - Introducción Orientada a Objetos
+# Añexos
 
-## Ver -> [Introducción](introduccion.md)
+- [Anexo - Introducción al Diseño Orientado a Objetos](introduccion.md)
 
-1. [Inicio](README.md) 2. [Introduccion](introduccion.md)
