@@ -27,4 +27,5 @@ Este sistema está orientado a mejorar la experiencia de atención, optimizar la
 ## Diagramas y Diseños
 
 - [Anexos](anexos.md)
+- [Diagramas UML](diagramasUML.md)
       
