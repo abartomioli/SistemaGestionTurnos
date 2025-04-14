@@ -1,48 +1,26 @@
   # **Sistema de Gestión de Turnos (SISTUR)**
 
-## Bartomioli Alejandro  
+Bartomioli Alejandro  
 
-**Diseño Orientado a Objetos**  
-Prof. Matías Velásquez  
+Diseño Orientado a Objetos**  
+Prof. Matias Velasquez  
 
-### Año 2025  
+Año 2025  
 
 
 ## Introducción
 
-Un centro de salud, presenta la necesidad de adhquirir un sistema de turnos para organizar los mismos.
-Actualmente lo manejan con agenda física y eso ocasiona problemas como pérdida de citas, no se reciben confirmación de turnos y en ocaciones se presentan duplicidad de turnos en pacientes.
+En la actualidad, un centro de salud enfrenta dificultades en la gestión de turnos médicos, ya que utiliza una agenda física para su organización. Este método ha generado problemas frecuentes como pérdida de citas, falta de confirmación por parte de los pacientes y superposición de turnos con los profesionales.
 
-Por los problemas, solicitan un sistema con los siguientes requerimientos:
+Frente a esta situación, se plantea el desarrollo de un sistema informático que permita gestionar de manera eficiente la asignación de turnos, automatizando procesos clave y reduciendo errores. El sistema busca brindar un entorno confiable y seguro para el registro y control de turnos, ofreciendo funcionalidades como:
 
-  - Contar con un historial de turnos generados por cada paciente y asegurarse que los médicos no tengan más turnos de los que pueden atender.
-  - Aviso de confirmación, cancelación o modificación de turnos tanto para los pacientes como los profesionales.
-  - Acceso restringido a personal autorizado de la información de contacto de los pacientes y médicos.
-    
-  + Datos relevantes de la agenda de turno:
-      - Registrar:
-        -   Fecha y Hora del turno.
-        -   Estado del turno (Confirmado, Cancelado, Pendiente)
-        -   Médico asignado
-        -   Nombre y Apellido del Paciente.
-        -   Motivo del turno
-        -   Observaciones
-          
-  + Datos relevantes de los pacientes:
-      - Registrar:
-        -  Nombre y Apellido
-        -  DNI
-        -  Fecha de Nacimiento
-        -  Teléfono
-        -  Mail
-        -  Historial de Turnos
-          
-  + Datos relevantes de los Profesionales de Salud:
-      - Registrar:
-        - Nombre y Apellido
-        - Matricula
-        - Especialidad
-        - Horario de Atención
-        - Datos del contacto
+Registro de turnos con historial por paciente.
+
+Control de disponibilidad de los profesionales de salud.
+
+Confirmación, modificación y cancelación de turnos, con notificaciones tanto para pacientes como para médicos.
+
+Protección de datos sensibles mediante acceso restringido según el perfil del usuario.
+
+Este sistema está orientado a mejorar la experiencia de atención, optimizar la organización interna del centro y facilitar el seguimiento de los turnos médicos. El análisis realizado se centra en identificar los requisitos funcionales esenciales, asegurando que el diseño de la aplicación contemple la trazabilidad de turnos, la comunicación efectiva entre los actores y la protección de los datos personales.
       
-Ver -> [Anexos](anexos.md)
