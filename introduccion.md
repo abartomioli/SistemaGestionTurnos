@@ -1,5 +1,3 @@
-#Introducción
-
 ## Anexo - Introducción al Diseño Orientado a Objetos
 
 ### ¿Qué es el paradigma de programación orientada a objetos (POO)?
