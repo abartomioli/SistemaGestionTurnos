@@ -23,4 +23,8 @@ Confirmación, modificación y cancelación de turnos, con notificaciones tanto 
 Protección de datos sensibles mediante acceso restringido según el perfil del usuario.
 
 Este sistema está orientado a mejorar la experiencia de atención, optimizar la organización interna del centro y facilitar el seguimiento de los turnos médicos. El análisis realizado se centra en identificar los requisitos funcionales esenciales, asegurando que el diseño de la aplicación contemple la trazabilidad de turnos, la comunicación efectiva entre los actores y la protección de los datos personales.
+
+## Diagramas y Diseños
+
+- [Anexos](anexos.md)
       
