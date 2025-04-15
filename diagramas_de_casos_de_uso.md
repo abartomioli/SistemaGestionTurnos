@@ -4,6 +4,8 @@
 
 ![-](https://github.com/abartomioli/SistemaGestionTurnos/blob/main/CasosdeUso/RegistrarunTurno.png?raw=true)
 
+https://drive.google.com/file/d/1iBiGhezT27U4eC92VlsLQHlPOG8taIlQ/view?usp=drive_link
+
 ## 📌 Caso de Uso 2: Confirmar asistencia a un Turno<br>
 
 ![-](https://github.com/abartomioli/SistemaGestionTurnos/blob/main/CasosdeUso/ConfirmarAsistenciaTurno.png?raw=true)
