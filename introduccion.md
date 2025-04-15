@@ -35,6 +35,8 @@ Es el principio que protege los datos de un objeto restringiendo su acceso desde
   - Los datos de la cuenta (saldo, número de cuenta) están protegidos.
   - El usuario solo puede interactuar a través de métodos como "Retirar dinero" o "Consultar saldo".
 
+![Encapsulamiento](https://github.com/abartomioli/SistemaGestionTurnos/blob/main/ImgPOO/Encapsulamiento.png?raw=true)
+
 ***-------CAJERO ATM-------***<br>
 -------INGRESAR PIN------<br>
 ---CONSULATAR SALDO--<br>
