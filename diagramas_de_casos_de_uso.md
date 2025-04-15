@@ -2,7 +2,7 @@
 
 ## 📌 Caso de Uso 1: Registrar un Turno<br>
 
-![-](https://github.com/abartomioli/SistemaGestionTurnos/blob/main/CasosdeUso/RegistrarunTurno.png?raw=true)
+![📌 Caso de Uso 1: Registrar un Turno]((https://drive.google.com/file/d/1iBiGhezT27U4eC92VlsLQHlPOG8taIlQ/view?usp=drive_link))
 
 https://drive.google.com/file/d/1iBiGhezT27U4eC92VlsLQHlPOG8taIlQ/view?usp=drive_link
 
