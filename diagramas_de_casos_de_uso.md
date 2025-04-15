@@ -2,7 +2,7 @@
 
 [📌 Caso de Uso 1: Registrar un Turno](https://drive.google.com/file/d/1iBiGhezT27U4eC92VlsLQHlPOG8taIlQ/view?usp=drive_link)
 
-[📌 Caso de Uso 2: Cancelar un Turno](https://drive.google.com/file/d/1pb328suCUGdZGIaXensq5VarQzhFvKQz/view?usp=drive_link)
+[📌 Caso de Uso 2: Cancelar un Turno](https://drive.google.com/file/d/1nDC4VQrp8ACghq59xoBvJYCZ6W_oD1kn/view?usp=drive_link)
 
 [📌 Caso de Uso 3: Confirmar asistencia un Turno](https://drive.google.com/file/d/1nDC4VQrp8ACghq59xoBvJYCZ6W_oD1kn/view?usp=drive_link)
 
