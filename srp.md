@@ -2,37 +2,43 @@
 
 ## Propósito y Tipo del Principio SOLID
 
-El Principio de Responsabilidad Única (Single Responsibility Principle) es un principio de diseño orientado a objetos que establece que una clase debe tener una única razón para cambiar, es decir, debe encargarse de una sola funcionalidad dentro del sistema.
+El Principio de Responsabilidad Única (Single Responsibility Principle) indica que una clase debe tener una única razón para cambiar, es decir, debe tener una única responsabilidad dentro del sistema. Este es un **principio de diseño de clases** que promueve una estructura de código modular, fácil de mantener y escalar.
 
-**Tipo de principio**: Principio de diseño de clases.
-
-Este principio ayuda a mantener el código limpio, modular y fácil de mantener. Cuando cada clase tiene una única responsabilidad, se reduce el acoplamiento y se mejora la cohesión. Esto facilita la extensión del sistema y el mantenimiento futuro, ya que los cambios en una funcionalidad no afectan otras partes no relacionadas.
+Aplicando este principio, las clases evitan mezclar diferentes lógicas de negocio, lo que facilita su comprensión y reduce la posibilidad de errores al modificar una funcionalidad específica.
 
 ---
 
-## Aplicación del SRP en el Sistema de Gestión de Turnos Médicos
+## Motivación
+
+Durante el análisis inicial del sistema, se detectó que ciertas clases, como `Paciente` o `Sistema`, tendían a concentrar múltiples funciones: desde mostrar interfaces hasta manejar lógica de turnos o notificaciones. Esta sobrecarga de responsabilidades complicaba las pruebas y la reutilización del código, generando un alto acoplamiento entre funcionalidades.
+
+Por ejemplo, si el método de envío de notificaciones cambiaba (de correo a WhatsApp), también debía modificarse la clase `Paciente`, lo que no es deseable.
+
+**Ejemplo del mundo real:**  
+Pensemos en una impresora multifunción. Si una sola clase maneja impresión, escaneo y envío de fax, cualquier cambio en la funcionalidad de escaneo podría afectar la impresión, aunque no estén directamente relacionadas. Aplicar SRP implicaría separar esas funcionalidades en clases distintas como `Impresora`, `Escáner` y `Fax`, cada una con su única responsabilidad.
+
+---
+
+## Aplicación del Principio SRP en las Clases del Proyecto
 
 ### Clase: `Paciente`
-
-- **Responsabilidad**: Gestionar acciones propias del paciente, como solicitar un turno, confirmar asistencia o consultar su historial.
-- **Justificación**: No tiene lógica relacionada con turnos o usuarios en general, se enfoca en su propio comportamiento. Esto mejora la cohesión y permite cambios en la lógica del paciente sin afectar al resto del sistema.
-
----
+- **Responsabilidad única**: Gestionar los datos del paciente y su historial de turnos.
+- **Mejora**: Se evita que tenga lógica de gestión de turnos o notificaciones, que ahora corresponde al `Sistema`.
 
 ### Clase: `Turno`
-
-- **Responsabilidad**: Representar un turno médico, permitiendo modificar su estado o asociarlo a un paciente y médico.
-- **Justificación**: No contiene lógica relacionada a la interfaz ni a usuarios. Se centra únicamente en su estado y relaciones. Un cambio en la lógica de estado del turno no afecta al paciente o al sistema.
-
----
+- **Responsabilidad única**: Administrar el estado y la asignación de un turno.
+- **Mejora**: No tiene lógica de envío de mensajes o validaciones externas.
 
 ### Clase: `Sistema`
-
-- **Responsabilidad**: Funcionar como orquestador general, mostrando historiales, verificando disponibilidad de turnos y enviando notificaciones.
-- **Justificación**: Separa claramente sus responsabilidades de las de los actores (Paciente, Médico, Recepcionista). Permite modificar el sistema de notificaciones, por ejemplo, sin alterar las clases de usuario.
+- **Responsabilidad única**: Coordinar funcionalidades del sistema, como búsquedas, notificaciones y visualización de datos.
+- **Mejora**: Centraliza tareas de coordinación, sin apropiarse de responsabilidades específicas de los actores del sistema.
 
 ---
 
-## Conclusión
+## Estructura de Clases (UML)
 
-La aplicación del Principio de Responsabilidad Única permite que las clases del sistema estén organizadas de forma coherente y mantenible. Al tener responsabilidades bien definidas y separadas, se favorece la reutilización, el testeo y la evolución del sistema de forma segura.
+A continuación se muestra el diagrama UML con la separación de responsabilidades aplicada según el SRP.
+
+![Diagrama UML SRP]()
+
+[🔗 Ver diagrama completo]()
