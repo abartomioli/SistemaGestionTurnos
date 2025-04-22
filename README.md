@@ -28,4 +28,5 @@ Este sistema está orientado a mejorar la experiencia de atención, optimizar la
 
 - [Anexos](anexos.md)
 - [Diagramas UML](diagramasUML.md)
+- [Herramientas Agile](herramientas_agile.md)
       
