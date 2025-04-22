@@ -38,4 +38,4 @@ Gracias al uso del OCP, ahora se pueden agregar nuevos tipos de exportación del
 
 A continuación se muestra el diagrama UML con la separación de responsabilidades aplicada según el ORP.
 
-![Diagrama UML SRP](diagrama_ocp.png)
+![Diagrama UML OCP](diagrama_ocp.png)
