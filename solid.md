@@ -6,7 +6,7 @@ Los principios SOLID son un conjunto de buenas prácticas para el diseño de sof
 
 - [Abierto/Cerrado (OCP)](ocp.md)
 
-- [Sustitución de Liskov (OCP)](lsp.md)
+- [Sustitución de Liskov (LSP)](lsp.md)
 
 - [Segregación de Interfaces (ISP)](isp.md)
 
