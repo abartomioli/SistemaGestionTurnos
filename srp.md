@@ -39,6 +39,4 @@ Pensemos en una impresora multifunción. Si una sola clase maneja impresión, es
 
 A continuación se muestra el diagrama UML con la separación de responsabilidades aplicada según el SRP.
 
-![Diagrama UML SRP]()
-
-[🔗 Ver diagrama completo]()
+![Diagrama UML SRP](diagrama_srp.png)
