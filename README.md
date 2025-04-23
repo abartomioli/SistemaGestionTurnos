@@ -2,7 +2,7 @@
 
 Bartomioli Alejandro  
 
-Diseño Orientado a Objetos**  
+Diseño Orientado a Objetos 
 Prof. Matias Velasquez  
 
 Año 2025  
