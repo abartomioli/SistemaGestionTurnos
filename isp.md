@@ -3,6 +3,7 @@
 ## Propósito y Tipo del Principio SOLID
 
 El Principio de Segregación de Interfaces (ISP) establece que los clientes no deben estar obligados a depender de interfaces que no utilizan. Es decir, las clases no deberían verse forzadas a implementar métodos que no les competen. Este principio favorece interfaces específicas frente a interfaces generales, promoviendo un diseño más claro, flexible y mantenible.
+
 ---
 
 ## Motivación
@@ -17,7 +18,7 @@ Ejemplo del mundo real: Imaginá que todos los empleados de un hospital tuvieran
 
 ---
 
-## Aplicación del Principio LSP en las Clases del Proyecto
+## Aplicación del Principio ISP en las Clases del Proyecto
 
 Para cumplir con el ISP, se pueden definir interfaces específicas y claras para cada tipo de usuario:
 Clases que implementan las interfaces:
