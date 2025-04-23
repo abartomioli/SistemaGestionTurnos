@@ -7,8 +7,11 @@ El Principio de Segregación de Interfaces (ISP) establece que los clientes no d
 
 ## Motivación
 
-En el sistema original, las clases Paciente, Médico y Recepcionista heredan directamente de una clase base común (Usuario). Esta clase Usuario, si estuviera mal diseñada, podría contener métodos genéricos como consultarHistorial, registrarTurno, cancelarTurno, etc., que no aplican de igual manera para todos los tipos de usuario.
-Esto obligaría a clases como Médico o Recepcionista a implementar o ignorar métodos que no necesitan, violando así el ISP.
+En la versión original, podríamos tener una interfaz genérica IUsuario con métodos como consultarHistorial(), registrarTurno(), cancelarTurno(), confirmarAsistencia() y recibirNotificacion(). Esto obliga a todos los roles (Paciente, Médico, Recepcionista) a implementar o ignorar métodos que no les competen:
+ - El Paciente no necesita registrarTurno() ni cancelarTurno().
+ - El Recepcionista no necesita consultarHistorial() ni confirmarAsistencia().
+ - El Médico no necesita registrarTurno() ni cancelarTurno() ni confirmarAsistencia().
+Este acoplamiento innecesario complica el mantenimiento y la evolución de la interfaz.
 
 Ejemplo del mundo real: Imaginá que todos los empleados de un hospital tuvieran que llenar el mismo formulario para reportar sus tareas. Una enfermera tendría que escribir sobre turnos de cirugía y un recepcionista sobre medicación, cosas que no tienen sentido para su rol. Lo ideal sería que cada uno reciba un formulario con campos específicos para su función.
 
@@ -19,17 +22,22 @@ Ejemplo del mundo real: Imaginá que todos los empleados de un hospital tuvieran
 Para cumplir con el ISP, se pueden definir interfaces específicas y claras para cada tipo de usuario:
 Clases que implementan las interfaces:
 
-- Paciente:
-   Implementa: IHistorial, IAsistencia, INotificable
-   Justificación: puede consultar su historial, confirmar asistencia y recibir notificaciones.
+- Interfaz IHistorial: Solo define la consulta de historial, para Paciente y Médico.
+- Interfaz IAgenda: Solo define operaciones de agenda, para Recepcionista.
+- Interfaz IAsistencia: Solo define confirmación de asistencia, para Paciente.
+- Interfaz INotificable: Solo define recepción de notificaciones, para Paciente y Médico.
 
-- Médico:
-   Implementa: IHistorial, INotificable
-   Justificación: puede consultar su agenda de turnos y recibir alertas.
+Clases que implementaria:
+- Paciente implementa IHistorial, IAsistencia, INotificable
+- Médico implementa IHistorial, INotificable
+- Recepcionista implementa IAgenda
+Cada clase depende únicamente de los métodos que realmente utiliza.
 
-- Recepcionista:
-   Implementa: IAgenda
-   Justificación: se encarga exclusivamente de registrar o cancelar turnos.
+Justificación de diseño
+- Paciente: puede consultar su historial, confirmar asistencia y recibir notificaciones. No se ve forzado a métodos de agenda.
+- Médico: consulta historial y recibe notificaciones de cambios de turno; no registra ni cancela citas.
+- Recepcionista: gestiona exclusivamente la creación y cancelación de turnos.
+Esta segregación mejora la claridad y facilita añadir nuevas operaciones específicas sin alterar interfaces existentes.
 
 ---
 
