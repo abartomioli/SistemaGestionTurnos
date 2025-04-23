@@ -14,7 +14,18 @@ En la versión original, podríamos tener una interfaz genérica IUsuario con m�
  - El Médico no necesita registrarTurno() ni cancelarTurno() ni confirmarAsistencia().
 Este acoplamiento innecesario complica el mantenimiento y la evolución de la interfaz.
 
-Ejemplo del mundo real: Imaginá que todos los empleados de un hospital tuvieran que llenar el mismo formulario para reportar sus tareas. Una enfermera tendría que escribir sobre turnos de cirugía y un recepcionista sobre medicación, cosas que no tienen sentido para su rol. Lo ideal sería que cada uno reciba un formulario con campos específicos para su función.
+Ejemplo del mundo real: Imaginá un sistema de gestión de turnos donde todos los usuarios deben implementar una interfaz genérica IUsuario, la cual incluye métodos como registrarTurno(), consultarHistorial(), confirmarAsistencia(), y recibirNotificacion().
+
+Esto sería equivalente a darle a todos los perfiles del sistema (pacientes, médicos y recepcionistas) el mismo panel con todas las funciones disponibles, sin importar si realmente las necesitan o no.
+
+Por ejemplo:
+- El Médico no necesita registrar ni cancelar turnos, pero esa interfaz lo obliga a implementar esos métodos, lo cual puede terminar en métodos vacíos o con código innecesario.
+- El Paciente no debería confirmar asistencia de otros ni recibir funciones administrativas.
+- El Recepcionista no debería consultar el historial clínico de un paciente desde su rol funcional.
+
+Esto es como si en un hospital se les pidiera a todos los empleados que completen el mismo formulario general todos los días, con campos para actividades que no tienen nada que ver con su tarea. Una recepcionista tendría que escribir sobre tratamientos médicos, y un médico sobre llamadas telefónicas o cobro de facturas. No solo sería confuso, sino que generaría errores y frustración.
+
+La solución, aplicando ISP, es dividir esa interfaz en interfaces más específicas como IPaciente, IMedico, IRecepcionista, con los métodos que realmente cada rol necesita. Esto reduce el acoplamiento y mejora la legibilidad, mantenimiento y robustez del sistema.
 
 ---
 
