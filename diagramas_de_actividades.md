@@ -1,4 +1,4 @@
-# **Diagramas de Casos de Actividades**
+# **Diagramas de Actividades**
 
 [📌 Diagrama de Actividad - Caso de Uso 1: Registrar un Turno](https://drive.google.com/file/d/1kQFDAzYXcEXl3I79QxpXt7uzUXNkrMUa/view?usp=sharing)
 
