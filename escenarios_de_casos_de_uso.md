@@ -1,6 +1,6 @@
 # **Escenarios de Casos de Uso**
 
-[📌 Caso de Uso 1 - Registrar Turno – Registro exitoso o Médico no disponible)](https://docs.google.com/spreadsheets/d/10dbPO9xjVecuGcQi0cBaf1Lg205phI-7OWQzLrB4c8I/edit?gid=0#gid=0)
+[📌 Caso de Uso 1 - Registrar Turno – Registro exitoso o Médico no disponible](https://docs.google.com/spreadsheets/d/10dbPO9xjVecuGcQi0cBaf1Lg205phI-7OWQzLrB4c8I/edit?gid=0#gid=0)
 
 [📌 Caso de Uso 2 - Cancelar Turno – Cancelación exitosa o NO permitida](https://docs.google.com/spreadsheets/d/10dbPO9xjVecuGcQi0cBaf1Lg205phI-7OWQzLrB4c8I/edit?gid=1595993216#gid=1595993216)
 
