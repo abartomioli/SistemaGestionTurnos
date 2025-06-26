@@ -4,4 +4,4 @@
 - [Escenarios de Casos de Uso](escenarios_de_casos_de_uso.md)
 - [Diagramas de Actividades](diagramas_de_actividades.md)
 - [Diagramas de Secuencias](diagramas_de_secuencias.md)
-- [Diagramas de Clases](diagramas_de_clases.md)
+- [Diagramas de Clases](https://drive.google.com/file/d/1OhRd8_wEN4WDl3eMxpXMI7w0RQ0Q9Fau/view?usp=drive_link)
