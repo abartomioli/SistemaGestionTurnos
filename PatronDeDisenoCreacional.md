@@ -12,3 +12,6 @@ En el sistema de gestión de turnos médicos, la clase ServicioTurno era respons
 
 Aplicando el patrón Factory Method, introducimos una interfaz TurnoFactory con un método crearTurno(...), y clases concretas como TurnoPresencialFactory, TurnoVirtualFactory, etc. Esto permite delegar la creación del objeto Turno, facilitando la extensión del sistema sin modificar código existente.
 
+### Estructura de Clases
+
+![DiagramaClase](https://github.com/abartomioli/SistemaGestionTurnos/blob/main/ImgPOO/Factory.jpg?raw=true)
