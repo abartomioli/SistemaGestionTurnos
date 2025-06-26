@@ -1,6 +1,6 @@
 # **Diagramas de Secuencias**
 
-[📌 Diagrama de Secuencia – Registrar Turno – Turno exitoso registrado por Recepcionista](https://drive.google.com/file/d/1ATnD9p5buqD1ZUsgaBRUaeayYLCnXZyl/view?usp=sharing)
+[📌 Diagrama de Secuencia – Registrar Turno – Turno exitoso registrado](https://drive.google.com/file/d/1ATnD9p5buqD1ZUsgaBRUaeayYLCnXZyl/view?usp=sharing)
 
 [📌 Diagrama de Secuencia – Cancelar Turno – Cancelación permitida del turno existente](https://drive.google.com/file/d/1oJbaP77hwbmjXqB-yMBVRgZ40omyR8K-/view?usp=sharing)
 
