@@ -1,12 +1,12 @@
 # **Diagramas de Secuencias**
 
-[📌 Diagrama de Secuencia – Registrar Turno – Turno exitoso registrado](https://drive.google.com/file/d/1ATnD9p5buqD1ZUsgaBRUaeayYLCnXZyl/view?usp=sharing)
+[📌 Diagrama de Secuencia – Registrar Turno – Turno exitoso registrado](https://drive.google.com/file/d/16pptPoaiX0ppulQHHqa-DlkbfTBRVMrT/view?usp=drive_link)
 
-[📌 Diagrama de Secuencia – Cancelar Turno](https://drive.google.com/file/d/1oJbaP77hwbmjXqB-yMBVRgZ40omyR8K-/view?usp=sharing)
+[📌 Diagrama de Secuencia – Cancelar Turno](https://drive.google.com/file/d/1tpGlnvKH2-Aob50C0dvDACnaWsBjarZv/view?usp=drive_link)
 
-[📌 Diagrama de Secuencia – Confirmar asistencia a un Turno](https://drive.google.com/file/d/1_eBgFfJeowtQ_NjnzxnVEcc6Chsh8Hd5/view?usp=sharing)
+[📌 Diagrama de Secuencia – Confirmar asistencia a un Turno](https://drive.google.com/file/d/16OySh6SMgdkIZeqHH42jfUB0TOKOgvCb/view?usp=drive_link)
 
-[📌 Diagrama de Secuencia – Consultar Historial de Turnos](https://drive.google.com/file/d/18rgDRYwr7JxHk9Tq6oxYABJchIEBvF_g/view?usp=sharing)
+[📌 Diagrama de Secuencia – Consultar Historial de Turnos](https://drive.google.com/file/d/1KS3s7Q7CRUKI70cr-qtEvpGDqBHh5_YC/view?usp=drive_link)
 
-[📌 Diagrama de Secuencia – Registrar un Paciente](https://drive.google.com/file/d/1Jwme-6T-ohJbYmE-ok0IHjBYYzkZcZEu/view?usp=sharing)
+[📌 Diagrama de Secuencia – Registrar un Paciente](https://drive.google.com/file/d/1sDAIluX5Mt-7g_lxvhwihrwrcHw9ytF6/view?usp=drive_link)
 
