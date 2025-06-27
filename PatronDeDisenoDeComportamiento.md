@@ -14,5 +14,4 @@ El Notificador puede encargarse de enviar correos o mensajes.
 En el diseño original, esto estaba acoplado dentro de la clase Turno, generando alta dependencia y poca flexibilidad. Con el patrón Observer, ahora Turno se convierte en el Subject que mantiene una lista de observadores, y cada uno de ellos puede reaccionar al evento de forma desacoplada, simplemente implementando una interfaz IObservador.
 
 ## Clases implicadas
-![DiagramaClase](https://github.com/abartomioli/SistemaGestionTurnos/blob/main/ImgPOO/Observer.jpg?raw=true)
 ![DiagramaClase](https://github.com/abartomioli/SistemaGestionTurnos/blob/main/ImgPOO/Observer.jpg)
