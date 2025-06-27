@@ -21,4 +21,4 @@ En nuestro sistema de gestión de turnos, la clase `Notificador` era responsable
 Para resolver este problema, utilizamos el patrón Adapter. Creamos una **interfaz común llamada `INotificador`**, que define el método `enviar(mensaje: string): void`, y diferentes adaptadores (`EmailAdapter`, `SMSAdapter`, `WhatsAppAdapter`) que encapsulan la lógica específica para cada canal. Así, cualquier clase del sistema puede usar una instancia de `INotificador` sin preocuparse por la implementación concreta.
 
 ## Clases implicadas
-![DiagramaClase](https://github.com/abartomioli/SistemaGestionTurnos/blob/main/ImgPOO/Adapter.jpg?raw=true)
+![DiagramaClase](https://github.com/abartomioli/SistemaGestionTurnos/blob/main/ImgPOO/Adapter.jpg)
