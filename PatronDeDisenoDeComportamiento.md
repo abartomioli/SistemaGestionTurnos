@@ -15,3 +15,4 @@ En el diseño original, esto estaba acoplado dentro de la clase Turno, generando
 
 ## Clases implicadas
 ![DiagramaClase](https://github.com/abartomioli/SistemaGestionTurnos/blob/main/ImgPOO/Observer.jpg?raw=true)
+![DiagramaClase](https://github.com/abartomioli/SistemaGestionTurnos/blob/main/ImgPOO/Observer.jpg)
