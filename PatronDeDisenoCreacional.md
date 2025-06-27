@@ -14,4 +14,4 @@ Aplicando el patrón Factory Method, introducimos una interfaz TurnoFactory con 
 
 ## Estructura de Clases
 
-![DiagramaClase](https://github.com/abartomioli/SistemaGestionTurnos/blob/main/ImgPOO/Factory.jpg?raw=true)
+![DiagramaClase](https://github.com/abartomioli/SistemaGestionTurnos/blob/main/ImgPOO/Factory.jpg)
